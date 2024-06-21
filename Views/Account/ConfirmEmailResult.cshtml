@@ -1,0 +1,11 @@
+﻿@model string
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Подтверждение email";
+}
+
+<h3>@Model</h3>
+
+
+<button type="button" class="btn btn-default" onclick="location.href='@Url.Action("Index", "Home")'">Домой</button>
